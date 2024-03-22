@@ -29,7 +29,7 @@ The dataset is divided into 50,000 training images and 10,000 validation images.
     Test Accuracy: 75.50
     notebook file : s8_batch_norm.ipynb
 misclassified_images: 
-![Framework](./images/batch_norm_mispred.png)
+    ![Framework](./images/batch_norm_mispred.png)
 
 
 ### GROUPNORM:
@@ -38,7 +38,7 @@ misclassified_images:
     Test Accuracy: 75.24
     notebook file : GroupNorm.ipynb
 misclassified_images: 
-![Framework](./images/group_norm_mispred.png)
+    ![Framework](./images/group_norm_mispred.PNG)
     
     
 ### LAYERNORM:
@@ -47,6 +47,6 @@ misclassified_images:
     Test Accuracy: 61.36
     notebook file : s8_layer_norm.ipynb
 misclassified_images:
-![Framework](./images/layer_norm_mispred.png)
+    ![Framework](./images/layer_norm_mispred.png)
 
 
