@@ -30,6 +30,9 @@ The dataset is divided into 50,000 training images and 10,000 validation images.
     notebook file : s8_batch_norm.ipynb
 misclassified_images: 
     ![Framework](./images/batch_norm_mispred.png)
+    
+graphs:
+    ![Framework](./images/batch_norm_graph.PNG)
 
 
 ### GROUPNORM:
@@ -39,6 +42,9 @@ misclassified_images:
     notebook file : GroupNorm.ipynb
 misclassified_images: 
     ![Framework](./images/group_norm_mispred.PNG)
+ 
+graphs:
+    ![Framework](./images/group_norm_graph.PNG)
     
     
 ### LAYERNORM:
@@ -48,5 +54,18 @@ misclassified_images:
     notebook file : s8_layer_norm.ipynb
 misclassified_images:
     ![Framework](./images/layer_norm_mispred.png)
+    
+graphs:
+    ![Framework](./images/layer_norm_graph.PNG)
+    
+## Findings
+
+- Batch Norm lead to faster convergence and higher accuracy
+- Batch norm allows higher learning rate without compromising convergence
+- Batch norm after relu and vice versa doesnt create much of a difference
+- Layer norm doent perform good as batch norm or group norm
+- As discussed in the class layer norm may be suitable for texts than CNNs
+- Got to know that Group norm is inspired from SIFT and HOG descriptors from a blog
+- Using layer norm creates more number of parameters when compared to group and batch norm
 
 
