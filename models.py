@@ -270,6 +270,8 @@ class S7_Model_3(nn.Module):
 
 # -------------------------------------------------------------------------
 # Assignment-8 models
+
+# .............................................Batch Normalisation model.....................
 dropout_val=0.1
 class S8_BN_Model(nn.Module):
     def __init__(self):
